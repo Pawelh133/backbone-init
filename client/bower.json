@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/Pawelh133/dog-barber",
+  "authors": [
+    "Paweł Hałat <pawelh133@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "angular-material": "^1.1.0",
+    "angular-route": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-animate": "^1.5.8"
+  }
+}
