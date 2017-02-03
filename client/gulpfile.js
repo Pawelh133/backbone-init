@@ -1,4 +1,3 @@
-/// <reference path="./typings/index.d.ts"/>
 'use strict'
 var gulp = require('gulp');
 var gulpWatch = require('gulp-watch')
