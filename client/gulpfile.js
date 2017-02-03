@@ -7,5 +7,5 @@ var config = require('./gulp/gulp.configs/config.gulp.js');
 var names = require('./gulp/gulp.configs/names.gulp.js');
 requireDir('./gulp/gulp.tasks');
 
-gulp.task(names.webBuild, [names.compileTs, names.compileSass]);
-gulp.task(names.webrun, [names.compileTs, names.compileSass, names.webserver]);
+gulp.task(names.webBuild, [names.compileSass]);
+gulp.task(names.webrun, [names.compileSass, names.webserver]);
